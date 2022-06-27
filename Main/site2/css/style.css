@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg{
+    background-image: url("background.jpg");
+    height: 1000px;
+    width: 100px;
+    position: relative;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+body{
+    background-color: #151719;
+}
+
+hr{
+    background: #7d370d;
+}
+
+.navbar .navbar-nav .nav-item{
+    padding-right: 3.5rem;
+}
+
+.navbar .navbar-nav .nav-item a{
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #EAE3EA;
+}
+
+.navbar .navbar-nav button{
+    background: #7d370d;
+    padding: 0.1rem 1.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    color: #EAE3EA;
+}
+
+
+.mid h1{
+    color: #EAE3EA;
+    font-weight: 900;
+}
+
+.mid h1 span{
+    color: #7d370d;
+}
+
+.mid p{
+    width: auto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #8a745f;
+    word-spacing: .1rem;
+}
+
+.mid .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.mid .row a{
+    background: #7d370d;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    color: #EAE3EA;
+    margin: 0 0.6rem;
+}
+
+.mid .row a:nth-child(2){
+    background: #25282c;
+    color: #EAE3EA;
+
+}
+
+.features .row .one img{
+    border-radius: 20%;
+}
+
+.features .row .one h3{
+    color: #EAE3EA;
+    font-weight: 700;
+}
+
+.features .row .one p{
+    color: #858d7a;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.review h1{
+    font-weight: 900;
+    font-size: 4rem;
+    color: #EAE3EA;
+}
+
+.review p{
+    color: #858d7a;
+    font-weight: 400;
+    font-size: 1.3rem;
+    word-spacing: 0.01rem;
+}
+
+.review .row div{
+    background-color: #25282c;
+    padding: 1rem 1.7rem;
+    color: #fff;
+}
+.review .row div i{
+    color: #7d370d;
+    font-size: 2rem;
+}
+
+.review .row div p{
+    color: #858d7a;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.review .row div h4{
+    color: #EAE3EA;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
